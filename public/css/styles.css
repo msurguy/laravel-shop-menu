@@ -1,0 +1,64 @@
+.thumbnail{ padding: 0;}
+
+.carousel-control, .item{
+     border-radius: 4px;
+ }
+
+.caption{
+    height: 130px;
+    overflow: hidden;
+} 
+
+.caption h4
+{
+    white-space: nowrap;
+}
+
+.thumbnail img{
+  width: 100%;
+}
+
+.ratings 
+{
+    color: #d17581;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.thumbnail .caption-full {
+padding: 9px;
+color: #333;
+}
+
+footer{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Search in the navigation bar */
+
+.form-control.selectize-control{
+  height: 34px;
+}
+
+.selectize-dropdown-content img{ width:20px; height:20px; margin-right: 3px; float:left; }
+
+.selectize-control::before {
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    content: ' ';
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 34px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/spinner.gif);
+    background-size: 16px 16px;
+    opacity: 0;
+}
+.selectize-control.loading::before {
+    opacity: 1;
+}
