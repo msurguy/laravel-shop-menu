@@ -7,7 +7,7 @@ class AdminMenuController extends \BaseController {
 	public function getIndex()
 	{	
 		$items 	= Menu::orderBy('order')->get();
-		
+
 		$menu 	= new Menu;
 		$menu   = $menu->getHTML($items);
 
@@ -31,6 +31,7 @@ class AdminMenuController extends \BaseController {
 		return Redirect::to("admin/menu/edit/{$id}");
 	}
 
+	// AJAX Reordering function
 	public function postIndex()
 	{	
 	    $source       = e(Input::get('source'));
