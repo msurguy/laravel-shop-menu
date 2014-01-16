@@ -26,4 +26,4 @@ I post tutorials all the time on my blog : http://maxoffsky.com, stay updated on
 
 ### License
 
-The Laravel backbone pagination is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel menu manager is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
